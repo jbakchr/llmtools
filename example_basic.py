@@ -1,7 +1,7 @@
-from client import generate
-from prompt import render
-from output import extract_bullets, parse_json, generate_json
-from input import chunk_text
+from llmtools.client import generate
+from llmtools.prompt import render
+from llmtools.output import extract_bullets, parse_json, generate_json
+from llmtools.input import chunk_text
 
 
 # ---------------------------

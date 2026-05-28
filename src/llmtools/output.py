@@ -1,6 +1,6 @@
 import json
 from typing import List, Dict, Any
-from client import generate
+from llmtools.client import generate
 
 
 def parse_json(text: str) -> Dict[str, Any]:

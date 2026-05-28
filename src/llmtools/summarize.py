@@ -1,6 +1,6 @@
-from client import generate
-from prompt import render
-from output import extract_bullets
+from llmtools.client import generate
+from llmtools.prompt import render
+from llmtools.output import extract_bullets
 
 def summarize(
     text: str,

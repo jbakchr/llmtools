@@ -1,3 +1,3 @@
-from summarize import summarize
+from llmtools import summarize
 
 print("Import works ✅")
