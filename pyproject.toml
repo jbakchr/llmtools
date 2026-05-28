@@ -1,7 +1,10 @@
 [project]
 name = "llmtools"
 version = "0.1.0"
-dependencies = ["requests"]
+dependencies = [
+    "requests>=2.30.0"
+]
+
 
 [build-system]
 requires = ["setuptools"]
